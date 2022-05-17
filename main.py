@@ -47,7 +47,7 @@ print(num_last_page)
 
 # Percorrendo todas as páginas
 total_links = []
-for i in range(1, 3):
+for i in range(1, num_last_page+1):
     url = browser.current_url+"?pagina="+str(i)
     browser.get(url)
 
